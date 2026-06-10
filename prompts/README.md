@@ -1,0 +1,1 @@
+AI prompts used for songwriting, artwork generation, video creation, marketing, and publishing.
