@@ -1,45 +1,61 @@
-# Song Catalog Schema
+Songs Table
 
-Each song should eventually have one record with the following fields.
+Purpose:
 
-## Core Song Fields
+The songs table stores the master record for each Hooley the Poet song.
 
-- song_id
-- title
-- alternate_titles
-- lyricist
-- status
-- project
-- album_or_collection
-- genre
-- mood
-- themes
-- lyrics
-- suno_url
-- soundcloud_url
-- youtube_url
-- tiktok_url
-- notes
+A song should exist independently of any particular album, playlist, website, book, or video project.
 
-## Image / Artwork Fields
+Core Fields
 
-- primary_cover_image
-- youtube_image
-- tiktok_image
-- image_prompt
-- image_notes
+* id
+* song_id
+* title
+* slug
+* alternate_titles
+* lyricist
+* status
+* genre
+* mood
+* themes
+* lyrics
+* notes
+* created_at
+* updated_at
 
-## Publishing Fields
+Publishing Links
 
-- release_status
-- release_date
-- copyright_notes
-- credits
-- description
-- hashtags
+* suno_url
+* soundcloud_url
+* youtube_url
+* tiktok_url
 
-## Internal Tracking
+Release Information
 
-- created_date
-- last_updated
-- version_notes
+* release_status
+* release_date
+* credits
+* copyright_notes
+
+Asset Relationships
+
+* primary_cover_asset_id
+
+Project Relationships
+
+* primary_project_id
+
+Status Values
+
+* idea
+* draft
+* revised
+* finished
+* published
+* archived
+
+Design Principle
+
+Songs are the core creative works.
+
+Audio files, images, prompts, videos, playlists, books, and website pages should be linked to songs rather than replacing the song record itself.
