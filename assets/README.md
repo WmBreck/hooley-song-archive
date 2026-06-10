@@ -1,0 +1,1 @@
+Images, cover art, photographs, logos, promotional graphics, and other media assets.
