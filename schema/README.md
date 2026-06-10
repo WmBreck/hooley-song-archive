@@ -1,0 +1,1 @@
+Database schemas, table definitions, and future Supabase structure for the Hooley the Poet archive.
