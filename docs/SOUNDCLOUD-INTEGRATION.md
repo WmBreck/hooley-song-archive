@@ -26,6 +26,22 @@ https://hooleythepoet.com/auth/soundcloud/callback
 - Public resource metadata can use the client credentials flow
 - User-specific actions require authorization code flow
 
+## Primary Playlist Target
+
+Short URL:
+
+https://on.soundcloud.com/Yi1oy9yhAH1Q3gDgQJ
+
+Resolved playlist URL:
+
+https://soundcloud.com/hooley-the-poet/sets/hooleys-eclectic-favorites
+
+Working label in the archive:
+
+Best Of Hooley / Hooley's Eclectic Favorites
+
+This playlist should be treated as a curated source of truth for the first SoundCloud sync.
+
 ## Initial Goals
 
 - Connect SoundCloud playlists
